@@ -1,0 +1,85 @@
+.link_search {
+    left: .8rem;
+    width: .8rem;
+    height: .9rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.msite_title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    color: #fff;
+    text-align: center;
+    margin-left: -0.5rem;
+}
+
+.msite_title .title_text {
+    font-size: .8rem;
+    color: #fff;
+    text-align: center;
+    display: block;
+}
+
+.msite_nav {
+    padding-top: 2.1rem;
+    background-color: #fff;
+    border-bottom: 0.025rem solid #e4e4e4;
+}
+
+.msite_nav .swiper-container {
+    width: 100%;
+    height: auto;
+    padding-bottom: 0.6rem;
+}
+
+.msite_nav .swiper-pagination {
+    bottom: 0.2rem;
+}
+
+.food_types_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.food_types_container .link_to_food {
+    width: 25%;
+    padding: 0.3rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+.food_types_container .link_to_food figure img {
+    margin-bottom: 0.3rem;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.food_types_container .link_to_food figure figcaption {
+    text-align: center;
+    font-size: 0.55rem;
+    color: #666;
+}
+
+.shop_list_container {
+    margin-top: .4rem;
+    border-top: 0.025rem solid #e4e4e4;
+    background-color: #fff;
+}
+
+.shop_list_container .shop_header .shop_icon {
+    fill: #999;
+    margin-left: 0.6rem;
+    vertical-align: middle;
+    width: 0.6rem;
+    height: 0.6rem;
+}
+
+.shop_list_container .shop_header .shop_header_title {
+    color: #999;
+    font: 0.55rem/1.6rem 'Microsoft Yahei'
+}

@@ -1,0 +1,62 @@
+.cart_module .add_icon {
+  position: relative;
+  z-index: 999;
+}
+.cart_module .cart_button {
+  display: flex;
+  align-items: center;
+}
+.cart_module svg {
+  width: 0.9rem;
+  height: 0.9rem;
+  fill: #3190e8;
+}
+.cart_module .specs_reduce_icon {
+  fill: #999;
+}
+.cart_module .cart_num {
+  font-size: 0.65rem;
+  color: #666;
+  min-width: 1rem;
+  text-align: center;
+  font-family: Helvetica Neue,Tahoma;
+}
+.cart_module .choose_specification .choose_icon_container {
+  display: flex;
+  align-items: center;
+}
+.cart_module .choose_specification .choose_icon_container .show_chooselist {
+  display: block;
+  font-size: 0.55rem;
+  color: #fff;
+  padding: .1rem .2rem;
+  background-color: #3190e8;
+  border-radius: 0.2rem;
+  border: 1px solid #3190e8;
+}
+
+.showReduce-enter-active, .showReduce-leave-active {
+  transition: all .3s ease-out;
+}
+
+.showReduce-enter, .showReduce-leave-active {
+  opacity: 0;
+  transform: translateX(1rem);
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: all .3s;
+}
+
+.fade-enter, .fade-leave-active {
+  opacity: 0;
+}
+
+.fadeBounce-enter-active, .fadeBounce-leave-active {
+  transition: all .3s;
+}
+
+.fadeBounce-enter, .fadeBounce-leave-active {
+  opacity: 0;
+  transform: scale(0.7);
+}

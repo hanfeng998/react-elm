@@ -1,0 +1,154 @@
+.shoplist_container {
+    background-color: #fff;
+    padding-bottom: 2rem;
+}
+
+.shop_li {
+    display: flex;
+    border-bottom: 0.025rem solid #f1f1f1;
+    padding: 0.7rem 0.4rem;
+}
+
+.shop_img {
+    width: 2.7rem;
+    height: 2.7rem;
+    display: block;
+    margin-right: 0.4rem;
+}
+
+.shop_right {
+    flex: auto;
+}
+
+.shop_right .shop_detail_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shop_right .shop_detail_header .shop_title {
+    width: 8.5rem;
+    color: #333;
+    padding-top: .01rem;
+    font: 0.65rem/0.65rem 'PingFangSC-Regular';
+    font-weight: 700;
+}
+
+.shop_right .shop_detail_header .premium::before {
+    content: '品牌';
+    display: inline-block;
+    font-size: 0.5rem;
+    line-height: .6rem;
+    background-color: #ffd930;
+    padding: 0 0.1rem;
+    border-radius: 0.1rem;
+    margin-right: 0.2rem;
+    vertical-align: top;
+}
+
+.shop_right .shop_detail_header .shop_detail_ul {
+    display: flex;
+}
+
+.shop_right .shop_detail_header .shop_detail_ul .supports {
+    font-size: 0.5rem;
+    color: #999;
+    border: 0.025rem solid #f1f1f1;
+    padding: 0.04rem;
+    border-radius: 0.08rem;
+    margin-left: 0.05rem;
+}
+
+.shop_right .rating_order_num {
+    display: flex;
+    justify-content: space-between;
+    height: 0.6rem;
+    margin-top: 0.52rem;
+}
+
+.shop_right .rating_order_num .rating_order_num_left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.shop_right .rating_order_num .rating_order_num_left .rating_section {
+    display: flex;
+}
+
+.shop_right .rating_order_num .rating_order_num_left .rating_section .rating_num {
+    font-size: 0.4rem;
+    color: #ff6000;
+    margin: 0 0.2rem;
+}
+
+.shop_right .rating_order_num .rating_order_num_left .order_section {
+    font-size: 0.4rem;
+    color: #666;
+}
+
+.shop_right .rating_order_num .rating_order_num_right {
+    display: flex;
+    align-items: center;
+}
+
+.shop_right .rating_order_num .rating_order_num_right .delivery_style {
+    font-size: 0.4rem;
+    padding: 0.04rem 0.08rem 0;
+    border-radius: 0.08rem;
+    margin-left: 0.08rem;
+    border: 1px;
+}
+
+.shop_right .rating_order_num .rating_order_num_right .delivery_left {
+    color: #fff;
+    background-color: #3190e8;
+    border: 0.025rem solid #3190e8;
+}
+
+.shop_right .rating_order_num .rating_order_num_right .delivery_right {
+    color: #3190e8;
+    border: 0.025rem solid #3190e8;
+}
+
+.shop_right .fee_distance {
+    margin-top: 0.52rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.5rem;
+    color: #666;
+}
+
+.shop_right .fee_distance .fee {
+    font-size: 0.5rem;
+    color: #666;
+}
+
+.shop_right .fee_distance .distance_time span {
+    color: #999;
+}
+
+.shop_right .fee_distance .distance_time .order_time {
+    color: #999;
+}
+
+.shop_right .fee_distance .distance_time .order_time {
+    color: #ccc;
+}
+
+.empty_data {
+    font-size: 0.5rem;
+    color: #666;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.return_top {
+    position: fixed;
+    bottom: 3rem;
+    right: 1rem;
+}
+
+.return_top .back_top_svg {
+    width: 2rem;
+    height: 2rem;
+}

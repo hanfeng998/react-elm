@@ -1,0 +1,85 @@
+  .city_container {
+      padding-top: 2.35rem;
+  }
+
+  .change_city {
+      right: 0.4rem;
+      font-size: 0.6rem;
+      color: #fff;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+
+  .city_form {
+      background-color: #fff;
+      border-top: 1px solid #e4e4e4;
+      border-bottom: 1px solid #e4e4e4;
+      padding-top: 0.4rem;
+  }
+
+  .city_form div {
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+  }
+
+  .city_form div .input_style {
+      border-radius: 0.1rem;
+      margin-bottom: 0.4rem;
+      width: 100%;
+      height: 1.4rem;
+  }
+
+  .city_form div .city_input {
+      border: 1px solid #e4e4e4;
+      padding: 0 0.3rem;
+      font-size: 0.65rem;
+      color: #333;
+  }
+
+  .city_form div .city_submit {
+      background-color: #3190e8;
+      font-size: 0.65rem;
+      color: #fff;
+  }
+
+  .pois_search_history {
+      border-top: 1px solid #e4e4e4;
+      border-bottom: 1px solid #e4e4e4;
+      padding-left: 0.5rem;
+      font: 0.475rem/0.8rem 'Microsoft YaHei';
+  }
+
+  .getpois_ul {
+      background-color: #fff;
+      border-top: 1px solid #e4e4e4;
+  }
+
+  .getpois_ul li {
+      margin: 0 auto;
+      padding-top: 0.65rem;
+      border-bottom: 1px solid #e4e4e4;
+  }
+
+  .getpois_ul li .pois_name {
+      margin: 0 auto 0.35rem;
+      width: 90%;
+      font-size: 0.65rem;
+      color: #333;
+  }
+
+  .getpois_ul li .pois_address {
+      width: 90%;
+      margin: 0 auto 0.55rem;
+      font-size: 0.45rem;
+      color: #999;
+  }
+
+  .search_none_place {
+      margin: 0 auto;
+      font: 0.65rem/1.75rem 'Microsoft Yahei';
+      color: #333;
+      background-color: #fff;
+      text-indent: 0.5rem;
+  }

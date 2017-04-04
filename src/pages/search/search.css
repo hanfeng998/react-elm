@@ -1,0 +1,126 @@
+.search_form {
+  background-color: #fff;
+  padding: 0.5rem;
+  display: flex;
+}
+.search_form input {
+  height: 1.5rem;
+}
+.search_form .search_input {
+  flex: 4;
+  border: 0.025rem solid #e4e4e4;
+  font-size: 0.65rem;
+  color: #333;
+  border-radius: 0.125rem;
+  background-color: #f2f2f2;
+  font-weight: bold;
+  padding: 0 0.25rem;
+}
+.search_form .search_submit {
+  flex: 1;
+  border: 0.025rem solid #3190e8;
+  margin-left: .2rem;
+  font-size: 0.65rem;
+  color: #fff;
+  border-radius: 0.125rem;
+  background-color: #3190e8;
+  font-weight: bold;
+  padding: 0 0.25rem;
+}
+
+.title_restaurant {
+  font-size: 0.6rem;
+  line-height: 2rem;
+  text-indent: 0.5rem;
+  font-weight: bold;
+  color: #666;
+}
+
+.list_container {
+  background-color: #fff;
+}
+
+.list_li {
+  display: flex;
+  justify-content: 'center';
+  padding: 0.5rem;
+  border-bottom: 0.025rem solid #e4e4e4;
+}
+.list_li .item_left {
+  margin-right: 0.25rem;
+}
+.list_li .item_left .restaurant_img {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+.list_li .item_right {
+  font-size: 0.55rem;
+  flex: 1;
+}
+.list_li .item_right .item_right_text {
+  padding-bottom: 0.25rem;
+  border-bottom: 0.025rem solid #e4e4e4;
+}
+.list_li .item_right .item_right_text p {
+  line-height: .9rem;
+}
+.list_li .item_right .item_right_text .pay_icon {
+  margin-bottom: -0.08rem;
+}
+.list_li .item_right .item_right_detail {
+  margin-top: 0.25rem;
+}
+.list_li .item_right .item_right_detail li {
+  font-size: 0;
+}
+.list_li .item_right .item_right_detail li span {
+  font-size: .5rem;
+  vertical-align: middle;
+  display: inline-block;
+  margin-bottom: 0.2rem;
+}
+.list_li .item_right .item_right_detail li .activities_icon {
+  font-size: 0.5rem;
+  color: #fff;
+  font-weight: bold;
+  padding: .04rem;
+  border-radius: 0.15rem;
+  margin-right: 0.125rem;
+}
+.list_li .item_right .item_right_detail li .only_phone {
+  color: #FF6000;
+}
+
+.search_history .history_list {
+  background-color: #fff;
+  border-bottom: 0.025rem solid #e4e4e4;
+  font: 0.7rem/2rem "Microsoft YaHei";
+  padding: 0 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search_history .history_list .history_text {
+  display: inline-block;
+  width: 80%;
+}
+.search_history .history_list .delete_icon {
+  width: 1rem;
+  height: 1rem;
+}
+.search_history .clear_history {
+  background-color: #fff;
+  color: #3190e8;
+  font: 0.7rem/2rem "Microsoft YaHei";
+  font-weight: bold;
+  text-align: center;
+}
+
+.search_none {
+  margin: 0 auto;
+  font: 0.65rem/1.75rem "Microsoft YaHei";
+  color: #333;
+  background-color: #fff;
+  text-align: center;
+  margin-top: 0.125rem;
+}
