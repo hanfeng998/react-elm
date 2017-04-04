@@ -7,8 +7,7 @@
 ![f10f2k5 r k6l 10wx3 tb](https://cloud.githubusercontent.com/assets/7224044/24667311/9eaaf4de-1995-11e7-83f6-c4d7d879f930.png)
 ![t y oea8 n_ilk3o 1 j5y](https://cloud.githubusercontent.com/assets/7224044/24667346/bcb5058c-1995-11e7-8fd4-3a05a9c4e437.png)
 ![ck68a9jnet_rp813 yrb g](https://cloud.githubusercontent.com/assets/7224044/24667368/d007b9ae-1995-11e7-84a8-4ebeb9d7ea5a.png)
-# 项目运行
-## npm start
+# 项目运行和构建
+ `npm start` 运行app，
+ `npm run build` 构建生产环境app
 
-# 项目构建
-## npm run build
