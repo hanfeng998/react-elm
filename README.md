@@ -1,5 +1,5 @@
 # 前言
-偶然看到这个用vue2写的项目(https://github.com/bailicangdu/vue2-elm)，正好准备学习react，所以决定用react技术栈来实现这个项目.
+偶然看到这个用[vue2写的项目](https://github.com/bailicangdu/vue2-elm)，正好准备学习react，所以决定用react技术栈来实现这个项目.
 # 项目截图
 ![v t2lusjm l3spefy8h bsr](https://cloud.githubusercontent.com/assets/7224044/24667206/36bb092c-1995-11e7-8d5e-359fa7bad8d6.png)
 ![1l f8_0l22tukjq 6zb2 s](https://cloud.githubusercontent.com/assets/7224044/24667250/69cd5d10-1995-11e7-8ef5-097010b0047d.png)
