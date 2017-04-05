@@ -49,4 +49,4 @@ const Home = asyncComponent((cb) =>
    生成的service work 会缓存静态的图片，javascript， css 和 html，甚至让应用在离线条件下也能工作。它也能节省数据和提高性能当应用，通过只网络请求已更新的资源。
    添加[sw-precache](https://github.com/GoogleChrome/sw-precache)依赖到package.json, 将这个命令sw-precache --config=sw-precache-config.js添加到build中, 如果你想缓存运行时资源，如ajax请求，可以查看sw-toolbox。
 ### 加入Web App Manifest
- `web app manifes` 提供关于你应用的元数据。可以用来出发添加到主屏的提示框，并且有和原生应用一样的加载效果。
+ `web app manifest` 提供关于你应用的元数据。可以用来触发添加到主屏的提示框，并且有和原生应用一样的加载效果。
