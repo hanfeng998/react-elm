@@ -50,3 +50,9 @@ const Home = asyncComponent((cb) =>
    添加[sw-precache](https://github.com/GoogleChrome/sw-precache)依赖到package.json, 将这个命令sw-precache --config=sw-precache-config.js添加到build中, 如果你想缓存运行时资源，如ajax请求，可以查看sw-toolbox。
 ### 加入Web App Manifest
  `web app manifest` 提供关于你应用的元数据。可以用来触发添加到主屏的提示框，并且有和原生应用一样的加载效果。
+## to do list
+1. 规范处理react代码，如明确定义组件的props。render里尽可能不要有太多jsx，讲逻辑抽离成helper函数
+2. 将页面组件分成更多小的组件
+3. 下拉加载
+4. 探讨runtime cache
+5. 更多功能页面
