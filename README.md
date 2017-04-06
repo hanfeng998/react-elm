@@ -12,6 +12,7 @@
 # 项目运行和构建
  `npm start` 运行app，
  `npm run build` 构建生产环境app
+ `cd src/server &&　node index` 开启接口服务
 # 性能
 ## code split
 将每个路由模块封装到async component中，然后利用webpack的require.ensure(webpack2推荐使用system.import, 因为create-react-app目前使用的wepack1)来实现异步加载模块，下面是代码示意
