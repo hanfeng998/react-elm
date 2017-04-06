@@ -6,20 +6,16 @@
  * imgBaseUrl: 图片所在域名地址
  * 
  */
-let baseUrl; 
+let baseUrl;
 let routerMode;
-const imgBaseUrl = 'https://fuss10.elemecdn.com';
+const imgBaseUrl = "https://fuss10.elemecdn.com";
 
-if (process.env.NODE_ENV == 'development') {
-	baseUrl = 'http://localhost:8000';
-	routerMode = 'hash'
-}else{
-	baseUrl = 'https://mainsite-restapi.ele.me';
-	routerMode = 'hash'
+if (process.env.NODE_ENV == "development") {
+  baseUrl = "http://localhost:8000";
+  routerMode = "hash";
+} else {
+  baseUrl = "https://mainsite-restapi.ele.me";
+  routerMode = "hash";
 }
 
-export {
-	baseUrl,
-	routerMode,
-	imgBaseUrl
-}
+export { baseUrl, routerMode, imgBaseUrl };
