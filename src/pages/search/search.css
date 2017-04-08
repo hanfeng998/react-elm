@@ -3,9 +3,11 @@
   padding: 0.5rem;
   display: flex;
 }
+
 .search_form input {
   height: 1.5rem;
 }
+
 .search_form .search_input {
   flex: 4;
   border: 0.025rem solid #e4e4e4;
@@ -16,6 +18,7 @@
   font-weight: bold;
   padding: 0 0.25rem;
 }
+
 .search_form .search_submit {
   flex: 1;
   border: 0.025rem solid #3190e8;
@@ -46,39 +49,49 @@
   padding: 0.5rem;
   border-bottom: 0.025rem solid #e4e4e4;
 }
+
 .list_li .item_left {
   margin-right: 0.25rem;
 }
+
 .list_li .item_left .restaurant_img {
   width: 1.7rem;
   height: 1.7rem;
 }
+
 .list_li .item_right {
   font-size: 0.55rem;
   flex: 1;
 }
+
 .list_li .item_right .item_right_text {
   padding-bottom: 0.25rem;
   border-bottom: 0.025rem solid #e4e4e4;
 }
+
 .list_li .item_right .item_right_text p {
   line-height: .9rem;
 }
+
 .list_li .item_right .item_right_text .pay_icon {
   margin-bottom: -0.08rem;
 }
+
 .list_li .item_right .item_right_detail {
   margin-top: 0.25rem;
 }
+
 .list_li .item_right .item_right_detail li {
   font-size: 0;
 }
+
 .list_li .item_right .item_right_detail li span {
   font-size: .5rem;
   vertical-align: middle;
   display: inline-block;
   margin-bottom: 0.2rem;
 }
+
 .list_li .item_right .item_right_detail li .activities_icon {
   font-size: 0.5rem;
   color: #fff;
@@ -87,6 +100,7 @@
   border-radius: 0.15rem;
   margin-right: 0.125rem;
 }
+
 .list_li .item_right .item_right_detail li .only_phone {
   color: #FF6000;
 }
@@ -100,14 +114,17 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .search_history .history_list .history_text {
   display: inline-block;
   width: 80%;
 }
+
 .search_history .history_list .delete_icon {
   width: 1rem;
   height: 1rem;
 }
+
 .search_history .clear_history {
   background-color: #fff;
   color: #3190e8;

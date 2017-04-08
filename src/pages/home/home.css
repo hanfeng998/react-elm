@@ -90,12 +90,12 @@
     color: #999
 }
 
-.letter_classify_li{
-        margin-bottom: 0.4rem;
-        background-color: #fff;
-        border-bottom: 1px solid #e4e4e4;   
+.letter_classify_li {
+    margin-bottom: 0.4rem;
+    background-color: #fff;
+    border-bottom: 1px solid #e4e4e4;
 }
 
-.letter_classify_li .groupcity_name_container  a{
+.letter_classify_li .groupcity_name_container a {
     color: #666
 }
